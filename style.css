@@ -553,6 +553,59 @@ nav {
             justify-content: space-between;
             align-items: center;
         }
+
+
+
+
+
+.section-4 {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding-top: 70px; 
+        }
+        .Veggie-Food {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .Product {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .items {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            gap: 15px;
+            text-align: start;
+        }
+        .items h1 {
+            font-size: 50px;
+            line-height: 1;
+            font-weight: 400;
+        }
+        .image-2 {
+            flex: 1;   
+            text-align: end;
+            position: absolute;
+            right: 15%;
+        }
+        .box {
+            height: 400px;
+            width: 350px;
+            background-color: #F3FCF7;
+            position: relative;
+            
+        }
+
+
+
+
+
+
+
         
      
 
